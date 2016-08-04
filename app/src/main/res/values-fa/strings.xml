@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">فیلترخور</string>
+    <string name="action_settings">تنظیمات</string>
+
+    <string name="service_state_up">کار میکند</string>
+    <string name="service_state_down">کار نمیکند</string>
+
+    <string name="settings_group_collapse">بستن</string>
+
+    <string name="settings_heading_data_use">استفاده از دیتا &amp; در حال به‌روزرسانی</string>
+    <string name="settings_data_syncing">ترتیب به‌روزرسانی</string>
+    <string name="settings_data_syncing_manual_only">دستی</string>
+    <string name="settings_data_syncing_automatic_running">حالت خودکار در زمانی که برنامه در حال اجراست \nبه‌روزرسانی در زمانی که برنامه باز است</string>
+    <string name="settings_data_syncing_automatic_background">حالت خودکار در پس‌زمینه \nهرگاه تلفنم به اینترنت وصل بود، به‌روزرسانی کن</string>
+    <string name="settings_data_sync_network">روش به‌روزرسانی</string>
+    <string name="settings_data_sync_network_wifi">فقط از طریق وای‌فای</string>
+    <string name="settings_data_sync_network_all">از طریق وای‌فای و شبکه‌های تلفن همراه</string>
+
+    <string name="updated_never">منتشرنشده</string>
+    <string name="updated_recently">کمتر از یک دقیقه پیش</string>
+    <string name="updated_minutes">%1$d دقیقه پیش</string>
+    <string name="updated_minute">%1$d دقیقه پیش</string>
+    <string name="updated_hours">%1$d ساعت پیش</string>
+    <string name="updated_hour">%1$d ساعت پیش</string>
+    <string name="updated_days">%1$d روز پیش</string>
+    <string name="updated_day">%1$d روز پیش</string>
+
+    <string name="pulldown_to_sync_no_net">اینترنت ندارید. بعدا دوباره تلاش کنید.‏</string>
+
+</resources>

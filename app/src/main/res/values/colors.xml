@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cccccc</color>
+    <color name="colorPrimaryDark">#999999</color>
+    <color name="colorAccent">#01C24A</color>
+
+    <color name="grey">#999999</color>
+
+    <color name="settings_background">#ffffff</color>
+    <color name="settings_group_header_background">@color/colorAccent</color>
+    <color name="settings_group_header_color">#fff</color>
+    <color name="settings_group_background">#dddddd</color>
+    <color name="settings_subgroup_header_background">#c0c0c0</color>
+    <color name="settings_subgroup_header_color">#000</color>
+
+    <color name="service_state_up_color">#fff</color>
+    <color name="service_state_up_background">@color/colorAccent</color>
+    <color name="service_state_down_color">#999</color>
+    <color name="service_state_down_background">#ddd</color>
+</resources>

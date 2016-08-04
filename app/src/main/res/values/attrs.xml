@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="doNotMirror" format="boolean" default="false"/>
+
+    <declare-styleable name="GroupView">
+        <attr name="header_layout" format="reference" />
+        <attr name="collapse_layout" format="reference" />
+        <attr name="header_text" format="reference" />
+        <attr name="header_sub_text" format="reference" />
+   	</declare-styleable>
+
+    <declare-styleable name="CustomFontTextView" parent="TextView">
+        <attr name="font" format="string" />
+        <attr name="android:textAppearance" />
+    </declare-styleable>
+
+</resources>

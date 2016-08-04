@@ -1,0 +1,6 @@
+[submodule "external/securereaderlibrary"]
+	path = external/securereaderlibrary
+	url = https://github.com/guardianproject/securereaderlibrary.git
+[submodule "external/NetCipher"]
+	path = external/NetCipher
+	url = https://github.com/guardianproject/OnionKit.git

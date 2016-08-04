@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dt_settings_group_title">Settings Group</string>
+    <string name="dt_settings_group_subtitle">Subtitle</string>
+
+</resources>

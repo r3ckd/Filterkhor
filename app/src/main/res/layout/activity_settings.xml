@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/settings_background"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <!-- Data & Syncing section -->
+
+        <net.postmodernapps.filterkhor.widgets.GroupView
+            android:id="@+id/groupDataUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/settings_group_background"
+            android:orientation="vertical"
+            app:collapse_layout="@layout/expand_less"
+            app:header_layout="@layout/settings_group_header_item"
+            app:header_text="@string/settings_heading_data_use" >
+
+            <TextView
+                style="@style/SettingsOptionGroupStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_data_syncing" />
+
+            <RadioGroup
+                android:id="@+id/rgSyncing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/rbSyncManual"
+                    style="@style/SettingsRadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/settings_data_syncing_manual_only" />
+
+                <RadioButton
+                    android:id="@+id/rbSyncWhenRunning"
+                    style="@style/SettingsRadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:text="@string/settings_data_syncing_automatic_running" />
+
+                <RadioButton
+                    android:id="@+id/rbSyncInBackground"
+                    style="@style/SettingsRadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:text="@string/settings_data_syncing_automatic_background" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/SettingsOptionGroupStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_data_sync_network" />
+
+            <RadioGroup
+                android:id="@+id/rgSyncNetwork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/rbSyncNetworkWifiOnly"
+                    style="@style/SettingsRadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:text="@string/settings_data_sync_network_wifi" />
+
+                <RadioButton
+                    android:id="@+id/rbSyncNetworkWifiAndMobile"
+                    style="@style/SettingsRadioButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:enabled="true"
+                    android:text="@string/settings_data_sync_network_all" />
+            </RadioGroup>
+
+        </net.postmodernapps.filterkhor.widgets.GroupView>
+
+    </LinearLayout>
+
+</ScrollView>
