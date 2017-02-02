@@ -56,7 +56,7 @@ import info.guardianproject.securereader.SocialReader;
 
 public class App extends MultiDexApplication implements SharedPreferences.OnSharedPreferenceChangeListener, ICacheWordSubscriber, SocialReader.SocialReaderFeedPreprocessor {
     public static final String LOGTAG = "App";
-    public static final boolean LOGGING = true;
+    public static final boolean LOGGING = false;
 
     public static final String EXIT_BROADCAST_ACTION = "net.postmodernapps.filterkhor.exit";
     public static final String SET_UI_LANGUAGE_BROADCAST_ACTION = "net.postmodernapps.filterkhor.setuilanguage";
