@@ -22,19 +22,17 @@ android {
         }
     }
 
-dexOptions {
-    jumboMode = true
-    javaMaxHeapSize "4g"
-}
+    dexOptions {
+        jumboMode = true
+        javaMaxHeapSize "4g"
+    }
 
-packagingOptions {
-    exclude 'META-INF/LICENSE.txt'
-    exclude 'META-INF/NOTICE.txt'
-    exclude 'META-INF/LICENSE'
-    exclude 'META-INF/NOTICE'
-    exclude 'META-INF/DEPENDENCIES'
-    exclude 'LICENSE.txt'
-}
+    lintOptions {
+          checkReleaseBuilds true
+          // Or, if you prefer, you can continue to check for errors in release builds,
+          // but continue the build even when errors are found:
+          abortOnError false
+      }
 }
 
 dependencies {
